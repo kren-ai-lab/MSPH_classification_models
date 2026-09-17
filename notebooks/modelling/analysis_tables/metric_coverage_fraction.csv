@@ -1,0 +1,5 @@
+config_name,roc_auc,pr_auc,mcc,brier,accuracy,balanced_accuracy,precision,recall,f1
+config_kfold,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+config_loo,0.0,0.0,0.9955012691950036,0.0,1.0,1.0,0.9955012691950036,1.0,1.0
+config_random80,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+config_strat80,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
