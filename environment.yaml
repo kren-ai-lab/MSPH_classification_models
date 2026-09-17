@@ -1,0 +1,37 @@
+name: msph-ml
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Core runtime
+  - python=3.12
+
+  # Numerical and data analysis
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+
+  # Machine learning
+  - scikit-learn=1.5.1
+  - imbalanced-learn=0.12.3
+  - joblib
+
+  # Model interpretation
+  - shap=0.46.0
+
+  # Visualization
+  - matplotlib=3.9.1
+  - seaborn=0.13.2
+
+  # Data I/O used by the workflows
+  - openpyxl
+  - pyarrow
+
+  # Notebook execution
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Package manager for any local additions
+  - pip
