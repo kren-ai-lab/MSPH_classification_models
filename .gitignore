@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# big csv
+notebooks/modelling/analysis_tables/results_seed_level.csv
+notebooks/modelling/analysis_tables/results_config_level.csv
